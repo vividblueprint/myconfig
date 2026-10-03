@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Docker
+# ////////////////| Docker |////////////////
+
 alias dps='docker ps'
 alias dpsa='docker ps -a'
 alias di='docker images'
@@ -9,3 +10,4 @@ alias dlogs='docker logs -f'
 alias dstop='docker stop'
 alias drm='docker rm'
 
+# ////////////////| End |////////////////

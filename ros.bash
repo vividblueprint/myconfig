@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# ROS2
+# ////////////////| ROS2 |////////////////
+
 alias ros='source /opt/ros/jazzy/setup.bash'
 alias rosws='source ~/ros2_ws/install/setup.bash'
 
@@ -33,3 +34,5 @@ alias rinstall='cd ~/ros2_ws/install'
 alias rlog='cd ~/ros2_ws/log'
 
 alias robot='cd ~/ros2_ws/src/robot'
+
+# ////////////////| End |////////////////

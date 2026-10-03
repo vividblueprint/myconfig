@@ -1,11 +1,13 @@
 #!/bin/bash
 
-# UV
+# ////////////////| UV Commands |////////////////
 alias uvr='uv run'
 alias uvs='uv sync'
 alias uva='uv add'
 alias uvrm='uv remove'
 alias uvp='uv pip'
+
+# ////////////////| End |////////////////
 
 # UV Auto Complete
 _uv() {

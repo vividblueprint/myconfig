@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# CP
+
+# ////////////////| CP |////////////////
+
 cp() {
     local file="$1"
     local name="${file%.*}"
@@ -36,3 +38,5 @@ cptest() {
         diff -u expected.txt output.txt
     fi
 }
+
+# ////////////////| End |////////////////

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ////////////////| Isaacsim |////////////////
+
 unset ISAACSIM_ASSET_ROOT
 # export ISAACSIM_ASSET_REGION_PROFILE=china
 export ISAACSIM_ASSET_REGION_PROFILE=us
@@ -18,3 +20,4 @@ ilrun() {
         "${@:2}"
 }
 
+# ////////////////| End |////////////////

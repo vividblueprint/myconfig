@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Robot Info
+# ////////////////| Robot Info |////////////////
+
 alias psrobot='ps aux | grep -E "ros|isaac|python|controller"'
 
 robotinfo() {
@@ -23,3 +24,5 @@ robotinfo() {
     echo "========== UV =========="
     uv --version 2>/dev/null
 }
+
+# ////////////////| End |////////////////

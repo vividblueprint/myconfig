@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Edit bash configuration
+# ////////////////| Edit bash configuration |////////////////
+
 alias eb='nano ~/.bashrc'
 alias emb='code ~/myconfig'
 alias sb='source ~/.bashrc'
+
+# ////////////////| End |////////////////

@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# ////////////////| source bash | ////////////
+# ////////////////| source bash |////////////////
 
 source "$HOME/myconfig/bash.bash"
 source "$HOME/myconfig/conda.bash"
 source "$HOME/myconfig/cp.bash"
+source "$HOME/myconfig/dir.bash"
 source "$HOME/myconfig/docker.bash"
 source "$HOME/myconfig/esp32.bash"
 source "$HOME/myconfig/ethercat.bash"
@@ -19,4 +20,4 @@ source "$HOME/myconfig/ssd.bash"
 source "$HOME/myconfig/system.bash"
 source "$HOME/myconfig/uv.bash"
 
-# /////////////////| End |////////////////////
+# /////////////////| End |////////////////

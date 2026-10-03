@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Git shortcuts
+# ////////////////| Git |////////////////
+
 alias gs='git status'
 alias gd='git diff'
 alias gds='git diff --stat'
@@ -19,3 +20,5 @@ alias gswc='git switch -c'
 alias glog='git log --oneline --graph --decorate --all'
 alias gstash='git stash'
 alias gpop='git stash pop'
+
+# ////////////////| End |////////////////
