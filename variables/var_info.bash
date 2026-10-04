@@ -13,5 +13,6 @@ ROOT_DISK="$(df -h / | awk 'NR==2 {print $4}') / $(df -h / | awk 'NR==2 {print $
 HOST="$(. /etc/os-release && echo $VERSION)"
 CPU_TEMP="$(sensors | awk '/Package id 0:/ {print $4; exit}' | tr -d '+')"
 GPU_TEMP="$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits)°C"
+ROS_DISTRO_NAME="$(source /opt/ros/jazzy/setup.bash && echo "$ROS_DISTRO")"
 
 # ////////////////| End |////////////////
