@@ -3,7 +3,7 @@
 # ////////////////| Edit bash configuration |////////////////
 
 alias eb='nano ~/.bashrc'
-alias emb='code ~/myconfig'
+alias emb='code ~/playground/myconfig'
 alias sb='source ~/.bashrc'
 
 # ////////////////| End |////////////////

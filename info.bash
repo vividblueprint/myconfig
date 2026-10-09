@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# ////////////////| Include Diractory Variables |////////////////
-
-source "$HOME/myconfig/variables/var_info.bash"
-source "$HOME/myconfig/variables/var_color.bash"
-
 # ////////////////| Print System Information |////////////////
 
 printf "${bg_bg_blueack}   ${bg_reset}${bg_transparent}%-14s${bg_bg_blueack} %-37s ${bg_reset}\n" "Today is:" "$(date)"

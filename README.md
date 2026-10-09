@@ -35,7 +35,7 @@ Clone the repository:
 
 ```bash
 # Clone
-git clone https://github.com/vividblueprint/myconfig.git ~/myconfig
+git clone https://github.com/vividblueprint/myconfig.git ~/playground/myconfig
 
 # Set Bash
 bash ~/myconfig/set.bash

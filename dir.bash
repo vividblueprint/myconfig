@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# ////////////////| Include Diractory Variables |////////////////
-
-VAR_DIR="$HOME/myconfig/variables/var_dir.bash"
-
-if [[ -f "$VAR_DIR" ]]; then
-    source "$VAR_DIR"
-fi
-
 # ////////////////| Directorys |////////////////
 
 alias localdisk='cd "$LOCALDISK"'
