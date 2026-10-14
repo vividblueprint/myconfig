@@ -2,6 +2,8 @@
 
 Personal Linux configuration and development environment scripts.
 
+![Terminal view](./docs/image.png)
+
 This repository contains Bash configuration files, aliases, environment
 variables, and helper scripts for my robotics and development workstation.
 
