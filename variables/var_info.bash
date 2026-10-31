@@ -11,7 +11,7 @@ CPU="$(lscpu | awk -F: '/Model name/ {gsub(/^[ \t]+/, "", $2); print $2; exit}')
 RAM="$(free -h | awk '/^Mem:/ {print $3 " / " $2}')"
 ROOT_DISK="$(df -h / | awk 'NR==2 {print $4}') / $(df -h / | awk 'NR==2 {print $3 " / " $2 " (" $5 ")"}')"
 HOST="$(. /etc/os-release && echo $VERSION)"
-CPU_TEMP="$(sensors | awk '/Package id 0:/ {print $4; exit}' | tr -d '+')"
+CPU_TEMP="$(sensors 2>/dev/null | awk '/Package id 0:/ {gsub(/[+°C]/, "", $4); print $4; exit}')"
 GPU_TEMP="$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits)°C"
 ROS_DISTRO_NAME="$(source /opt/ros/jazzy/setup.bash && echo "$ROS_DISTRO")"
 

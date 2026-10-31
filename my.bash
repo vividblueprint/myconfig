@@ -34,5 +34,6 @@ source "$MY_CFG_DIR/ros.bash"
 source "$MY_CFG_DIR/ssd.bash"
 source "$MY_CFG_DIR/system.bash"
 source "$MY_CFG_DIR/uv.bash"
+source "$MY_CFG_DIR/vscode.bash"
 
 # /////////////////| End |////////////////
