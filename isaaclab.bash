@@ -12,6 +12,7 @@ alias ilt="cd $ISAAC_ROOT/IsaacLabTutorial"
 alias iltrain='uv run isaaclab train --rl_library rsl_rl'
 alias newton='uv run isaaclab train --rl_library rsl_rl physics=newton_mjwarp'
 alias physx='uv run --extra ovphysx isaaclab train --rl_library rsl_rl physics=ovphysx'
+alias ilenvs='uv run isaaclab list_envs --show_presets'
 
 ilcfgeditor() {
     uv run isaaclab --editor
