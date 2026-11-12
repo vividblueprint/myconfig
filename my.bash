@@ -9,7 +9,7 @@ VAR_DIR="$MY_CFG_DIR/variables/var_dir.bash"
 
 source "$MY_CFG_DIR/variables/var_info.bash"
 source "$MY_CFG_DIR/variables/var_color.bash"
-
+source "$MY_CFG_DIR/variables/var_env.bash"
 
 if [[ -f "$VAR_DIR" ]]; then
     source "$VAR_DIR"
@@ -23,7 +23,7 @@ source "$MY_CFG_DIR/cp.bash"
 source "$MY_CFG_DIR/dir.bash"
 source "$MY_CFG_DIR/docker.bash"
 source "$MY_CFG_DIR/esp32.bash"
-source "$MY_CFG_DIR/ethercat.bash"
+source "$MY_CFG_DIR/ethernet.bash"
 source "$MY_CFG_DIR/git.bash"
 source "$MY_CFG_DIR/info.bash"
 source "$MY_CFG_DIR/isaaclab.bash"

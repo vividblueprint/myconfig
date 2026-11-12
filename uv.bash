@@ -1,11 +1,52 @@
 #!/bin/bash
 
 # ////////////////| UV Commands |////////////////
-alias uvr='uv run'
-alias uvs='uv sync'
-alias uva='uv add'
-alias uvrm='uv remove'
-alias uvp='uv pip'
+
+# Virtual environment
+alias uv_info='uv --version'
+alias uv_venv='uv venv'
+alias uv_venv308='uv venv --python 3.8'
+alias uv_venv309='uv venv --python 3.9'
+alias uv_venv311='uv venv --python 3.11'
+alias uv_venv312='uv venv --python 3.12'
+alias uv_venv313='uv venv --python 3.13'
+alias uv_venv314='uv venv --python 3.14'
+alias uv_venv315='uv venv --python 3.15'
+alias uv_venv316='uv venv --python 3.16'
+alias uv_venv_clear='uv venv --python 3.11 --clear'
+alias uv_activate='source .venv/bin/activate'
+alias uv_deactivate='deactivate'
+
+# Package management
+alias uv_add='uv add'
+alias uv_remove='uv remove'
+alias uv_install='uv pip install'
+alias uv_uninstall='uv pip uninstall'
+alias uv_list='uv pip list'
+alias uv_show='uv pip show'
+alias uv_tree='uv tree'
+alias uv_outdated='uv pip list --outdated'
+
+# Project management
+alias uv_init='uv init'
+alias uv_sync='uv sync'
+alias uv_lock='uv lock'
+alias uv_update='uv lock --upgrade'
+alias uv_run='uv run'
+alias uv_build='uv build'
+
+# Python management
+alias uv_python='uv python list'
+alias uv_python_install='uv python install'
+
+# Cache
+alias uv_cache='uv cache dir'
+alias uv_cache_clean='uv cache clean'
+alias uv_cache_size='du -sh "$(uv cache dir)"'
+
+# Run Python using uv
+alias uv_py='uv run python'
+alias uv_pip='uv pip'
 
 # ////////////////| End |////////////////
 
