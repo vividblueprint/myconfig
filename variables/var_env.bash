@@ -8,15 +8,6 @@ export ETH_TARGET="192.168.123.18"
 
 export CYCLONEDDS_HOME="$HOME/playground/unitree_go2/cyclonedds/install"
 
-
-
-
-
-
-
-
-
-
 # export LD_LIBRARY_PATH=/home/shamim/<rl_workspaces>/isaacgym/python/isaacgym/_bindings/linux-x86_64:$LD_LIBRARY_PATH
 # export LD_LIBRARY_PATH="/home/shamim/miniconda3/envs/<env_name>/lib:$LD_LIBRARY_PATH"
 
