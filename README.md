@@ -73,3 +73,5 @@ git clone https://github.com/vividblueprint/myconfig.git ~/playground/myconfig
 # Set Bash
 bash ~/myconfig/set.bash
 ```
+
+Note: Restart Bash and enjoy.
